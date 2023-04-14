@@ -17,7 +17,7 @@ https://api.withleaf.io/api/authenticate
 
 
 
-Request examples:
+**Request examples**
 
 <Tabs
   defaultValue="sh"
@@ -69,7 +69,8 @@ Request examples:
   </TabItem>
 </Tabs>
 
-This request will return your access token to Leaf's API as a response:
+**Response**
+This request will return your access token to Leaf's API.
 
 ```json
 {
@@ -81,10 +82,9 @@ Leaf's API.
 
 **Note:** 
 - Your Leaf Token lasts for 30 days with "rememberMe": "true" in the
-json. If you want it to last only 24h, feel free to set "rememberMe" to "false"._  
+json. If you want it to last only 24h, feel free to set "rememberMe" to "false". 
 - After expiration, make the same request to the same endpoint and you will
 get a new access token. 
-- The email address that you use is the 'API owner' that we refer to in parts of the documentation
 
 [register]: https://withleaf.io/account/quickstart/
 [jwt]: https://tools.ietf.org/html/rfc7519
