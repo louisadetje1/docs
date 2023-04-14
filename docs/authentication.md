@@ -70,6 +70,7 @@ https://api.withleaf.io/api/authenticate
 </Tabs>
 
 **Response**
+
 This request will return your access token to Leaf's API.
 
 ```json
@@ -82,8 +83,8 @@ Leaf's API.
 
 **Note:** 
 - Your Leaf Token lasts for 30 days with "rememberMe": "true" in the
-json. If you want it to last only 24h, feel free to set "rememberMe" to "false". 
-- After expiration, make the same request to the same endpoint and you will
+json. If you want it to last only 24 hours, set "rememberMe" to "false". 
+- After expiration, just make the same request to the same endpoint and you will
 get a new access token. 
 
 [register]: https://withleaf.io/account/quickstart/
